@@ -1,0 +1,259 @@
+// Front-end Style Guide
+// Layout
+$Mobile: 375px;
+$Desktop: 1440px;
+
+// Colors
+// Primary
+$VeryDarkBlue: hsl(243, 87%, 12%);
+$DesaturatedBlue: hsl(238, 22%, 44%);
+
+// Accent
+$BrightBlue: hsl(224, 93%, 58%);
+$ModerateCyan: hsl(170, 45%, 43%);
+
+// Neutral
+$LightGrayishBlue: hsl(240, 75%, 98%);
+$LightGray: hsl(0, 0%, 75%);
+
+// Typography
+
+// Headings, Call-to-actions, Header Navigation
+// Family: [Raleway](https://fonts.google.com/specimen/Raleway)
+// Weights: 400, 700
+// font-family: 'Raleway', sans-serif;
+
+// Body
+// Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+// Weights: 400
+// font-family: 'Open Sans', sans-serif;
+
+body {
+  max-width: 1200px;
+  margin: 40px auto;
+  font-family: 'Open Sans', sans-serif;
+  h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+    line-height: normal;
+  }
+  h1 {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  h2 {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  form {
+    input {
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid;
+      &::placeholder {
+        color: $LightGray;
+      }
+    }
+    .iText {
+    }
+    .iButton {
+      background-color: $BrightBlue;
+      color: white;
+      cursor: pointer;
+    }
+  }
+  .nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    .block {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-around;
+      align-items: center;
+      h3 {
+        padding: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+  .main {
+    .block1 {
+      margin-top: 100px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      .block11 {
+        width: 40%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        p {
+          margin-top: 20px;
+        }
+        form {
+          margin-top: 20px;
+          input {
+            //padding: 10px;
+            //border-radius: 5px;
+            //border: 1px solid;
+            //&::placeholder {
+              //color: $LightGray;
+            //}
+          }
+          .iText {
+            width: 50%;
+          }
+          .iButton {
+            //background-color: $BrightBlue;
+            //color: white;
+            margin-left: 2%;
+            width: 35%;
+            //cursor: pointer;
+          }
+        }
+      }
+      img {
+        width: 40%;
+      }
+    }
+    .block2 {
+      margin-top: 100px;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: flex-start;
+      .block21 {
+        background-color: $LightGrayishBlue;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        .block211 {
+          width: 40%;
+          .underlineLink {
+            //text-decoration: underline;
+            padding-bottom: 7px;
+            border-bottom: 1px solid $ModerateCyan;
+          }
+          p {
+            margin-top: 20px;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: flex-end;
+            a {
+              color: $ModerateCyan;
+              text-decoration: none;
+              display: flex;
+              flex-flow: row nowrap;
+              align-items: center;
+              img {
+                margin-left: 10px;
+                width: 15px;
+                bottom: 0px;
+              }
+            }
+          }
+          .block2111 {
+            width: 60%;
+            margin-top: 40px;
+            padding: 20px 40px;
+            border-radius: 10px;
+            background-color: white;
+            .smallImg {
+              width: 15px;
+            }
+            p {
+              padding: 0px;
+              margin-top: 10px;
+              line-height: 2;
+            }
+            .block21111 {
+              margin-top: 10px;
+              display: flex;
+              flex-flow: row nowrap;
+              justify-content: flex-start;
+              img {
+                width: 30px;
+                border-radius: 20px;
+                margin-right: 10px;
+              }
+              .block211111 {
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: flex-start;
+                h4 {
+                  font-size: 12px;
+                  line-height: normal;
+                  font-weight: 700;
+                }
+                h5 {
+                  font-size: 10px;
+                  line-height: normal;
+                  font-weight: 400;
+                }
+              }
+            }
+          }
+        }
+        img {
+          width: 40%;
+          height: 100%;
+        }
+      }
+    }
+    .block3 {
+      padding-top: 100px;
+      padding-bottom: 100px;
+      background-color: $DesaturatedBlue;
+      color: white;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-around;
+      align-items: center;
+      .block31 {
+        width: 40%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items:flex-start;
+        p {
+          margin-top: 20px;
+        }
+      }
+      form {
+        width: 40%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        .iText {
+          width: 100%;
+        }
+        .iButton {
+          width: 40%;
+          background-color: $BrightBlue;
+          color: white;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.attribution {
+  font-size: 11px; text-align: center;
+  a {
+    color: hsl(228, 45%, 44%);
+  }
+}

@@ -1,0 +1,253 @@
+body {
+  max-width: 1200px;
+  margin: 40px auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body h1, body h2, body h3 {
+  font-family: 'Raleway', sans-serif;
+  line-height: normal;
+}
+
+body h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+body h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+body p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+body a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+body form input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+body form input::placeholder {
+  color: #bfbfbf;
+}
+
+body form .iButton {
+  background-color: #3065f8;
+  color: white;
+  cursor: pointer;
+}
+
+body .nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+body .nav .block {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+body .nav .block h3 {
+  padding: 20px;
+  cursor: pointer;
+}
+
+body .main .block1 {
+  margin-top: 100px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+body .main .block1 .block11 {
+  width: 40%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+body .main .block1 .block11 p {
+  margin-top: 20px;
+}
+
+body .main .block1 .block11 form {
+  margin-top: 20px;
+}
+
+body .main .block1 .block11 form .iText {
+  width: 50%;
+}
+
+body .main .block1 .block11 form .iButton {
+  margin-left: 2%;
+  width: 35%;
+}
+
+body .main .block1 img {
+  width: 40%;
+}
+
+body .main .block2 {
+  margin-top: 100px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+}
+
+body .main .block2 .block21 {
+  background-color: #f6f6fe;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+body .main .block2 .block21 .block211 {
+  width: 40%;
+}
+
+body .main .block2 .block21 .block211 .underlineLink {
+  padding-bottom: 7px;
+  border-bottom: 1px solid #3c9f8f;
+}
+
+body .main .block2 .block21 .block211 p {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-end;
+}
+
+body .main .block2 .block21 .block211 p a {
+  color: #3c9f8f;
+  text-decoration: none;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+body .main .block2 .block21 .block211 p a img {
+  margin-left: 10px;
+  width: 15px;
+  bottom: 0px;
+}
+
+body .main .block2 .block21 .block211 .block2111 {
+  width: 60%;
+  margin-top: 40px;
+  padding: 20px 40px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+body .main .block2 .block21 .block211 .block2111 .smallImg {
+  width: 15px;
+}
+
+body .main .block2 .block21 .block211 .block2111 p {
+  padding: 0px;
+  margin-top: 10px;
+  line-height: 2;
+}
+
+body .main .block2 .block21 .block211 .block2111 .block21111 {
+  margin-top: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+
+body .main .block2 .block21 .block211 .block2111 .block21111 img {
+  width: 30px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+body .main .block2 .block21 .block211 .block2111 .block21111 .block211111 {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+}
+
+body .main .block2 .block21 .block211 .block2111 .block21111 .block211111 h4 {
+  font-size: 12px;
+  line-height: normal;
+  font-weight: 700;
+}
+
+body .main .block2 .block21 .block211 .block2111 .block21111 .block211111 h5 {
+  font-size: 10px;
+  line-height: normal;
+  font-weight: 400;
+}
+
+body .main .block2 .block21 img {
+  width: 40%;
+  height: 100%;
+}
+
+body .main .block3 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #585989;
+  color: white;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+body .main .block3 .block31 {
+  width: 40%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+body .main .block3 .block31 p {
+  margin-top: 20px;
+}
+
+body .main .block3 form {
+  width: 40%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+}
+
+body .main .block3 form .iText {
+  width: 100%;
+}
+
+body .main .block3 form .iButton {
+  width: 40%;
+  background-color: #3065f8;
+  color: white;
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
