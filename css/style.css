@@ -34,8 +34,8 @@ body a {
 }
 
 body form input {
-  padding: 10px;
-  border-radius: 5px;
+  padding: 15px;
+  border-radius: 3px;
   border: 1px solid;
 }
 
@@ -50,9 +50,16 @@ body form .iButton {
 }
 
 body .nav {
+  width: 90%;
+  margin: 0 auto;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+}
+
+body .nav img {
+  width: 150px;
+  height: 100%;
 }
 
 body .nav .block {
@@ -100,6 +107,7 @@ body .main .block1 .block11 form .iButton {
 
 body .main .block1 img {
   width: 40%;
+  height: 100%;
 }
 
 body .main .block2 {
@@ -111,7 +119,7 @@ body .main .block2 {
 
 body .main .block2 .block21 {
   background-color: #f6f6fe;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 100px;
   display: flex;
   flex-flow: row wrap;
@@ -149,9 +157,9 @@ body .main .block2 .block21 .block211 p a img {
 }
 
 body .main .block2 .block21 .block211 .block2111 {
-  width: 60%;
-  margin-top: 40px;
-  padding: 20px 40px;
+  width: 55%;
+  margin-top: 30px;
+  padding: 15px 30px;
   border-radius: 10px;
   background-color: white;
 }
@@ -161,9 +169,10 @@ body .main .block2 .block21 .block211 .block2111 .smallImg {
 }
 
 body .main .block2 .block21 .block211 .block2111 p {
+  font-size: 14px;
   padding: 0px;
   margin-top: 10px;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 body .main .block2 .block21 .block211 .block2111 .block21111 {
@@ -204,7 +213,7 @@ body .main .block2 .block21 img {
 
 body .main .block3 {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   background-color: #585989;
   color: white;
   display: flex;
@@ -233,21 +242,72 @@ body .main .block3 form {
 }
 
 body .main .block3 form .iText {
-  width: 100%;
+  width: 90%;
+  margin-bottom: 10px;
+  border: 0.5px solid grey;
 }
 
 body .main .block3 form .iButton {
-  width: 40%;
+  width: 50%;
   background-color: #3065f8;
+  border: 0.5px solid grey;
   color: white;
   cursor: pointer;
 }
 
-.attribution {
+body .footer {
+  padding: 90px 5% 0px;
+  width: 90%;
+  color: white;
+  background-color: #070439;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+body .footer .block4 {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+body .footer .block4 .block41 div {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+body .footer .block4 .block41 div p {
+  margin-left: 20px;
+}
+
+body .footer .block4 .block42 p {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+body .footer .block4 .block43 p {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+body .footer .block4 .block44 img {
+  margin-left: 10px;
+}
+
+body .footer .attribution {
+  margin-top: 30px;
+  margin-bottom: 5px;
   font-size: 11px;
   text-align: center;
 }
 
-.attribution a {
+body .footer .attribution a {
   color: #3e52a3;
 }

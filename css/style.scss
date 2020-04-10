@@ -58,8 +58,8 @@ body {
   }
   form {
     input {
-      padding: 10px;
-      border-radius: 5px;
+      padding: 15px;
+      border-radius: 3px;
       border: 1px solid;
       &::placeholder {
         color: $LightGray;
@@ -74,9 +74,15 @@ body {
     }
   }
   .nav {
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    img {
+      width: 150px;
+      height: 100%;
+    }
     .block {
       display: flex;
       flex-flow: row nowrap;
@@ -126,6 +132,7 @@ body {
       }
       img {
         width: 40%;
+        height: 100%;
       }
     }
     .block2 {
@@ -135,7 +142,7 @@ body {
       justify-content: flex-start;
       .block21 {
         background-color: $LightGrayishBlue;
-        padding-top: 50px;
+        padding-top: 30px;
         padding-bottom: 100px;
         display: flex;
         flex-flow: row wrap;
@@ -166,18 +173,19 @@ body {
             }
           }
           .block2111 {
-            width: 60%;
-            margin-top: 40px;
-            padding: 20px 40px;
+            width: 55%;
+            margin-top: 30px;
+            padding: 15px 30px;
             border-radius: 10px;
             background-color: white;
             .smallImg {
               width: 15px;
             }
             p {
+              font-size: 14px;
               padding: 0px;
               margin-top: 10px;
-              line-height: 2;
+              line-height: 1.5;
             }
             .block21111 {
               margin-top: 10px;
@@ -215,7 +223,7 @@ body {
     }
     .block3 {
       padding-top: 100px;
-      padding-bottom: 100px;
+      padding-bottom: 50px;
       background-color: $DesaturatedBlue;
       color: white;
       display: flex;
@@ -238,22 +246,73 @@ body {
         flex-flow: column wrap;
         justify-content: flex-start;
         .iText {
-          width: 100%;
+          width: 90%;
+          margin-bottom: 10px;
+          border: 0.5px solid grey;
         }
         .iButton {
-          width: 40%;
+          width: 50%;
           background-color: $BrightBlue;
+          border: 0.5px solid grey;
           color: white;
           cursor: pointer;
         }
       }
     }
   }
-}
-
-.attribution {
-  font-size: 11px; text-align: center;
-  a {
-    color: hsl(228, 45%, 44%);
+  .footer {
+    padding: 90px 5% 0px;
+    width: 90%;
+    color: white;
+    background-color: $VeryDarkBlue;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    .block4 {
+      margin-top: 30px;
+      width: 100%;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      .block41 {
+        div {
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: flex-start;
+          align-items: center;
+          margin-bottom: 10px;
+          p {
+            margin-left: 20px;
+          }
+        }
+      }
+      .block42 {
+        p {
+          margin-left: 20px;
+          margin-bottom: 10px;
+        }
+      }
+      .block43 {
+        p {
+          margin-left: 20px;
+          margin-bottom: 10px;
+        }
+      }
+      .block44 {
+        img {
+          margin-left: 10px;
+        }
+      }
+    }
+    .attribution {
+      margin-top: 30px;
+      margin-bottom: 5px;
+      font-size: 11px; text-align: center;
+      a {
+        color: hsl(228, 45%, 44%);
+      }
+    }
   }
 }
