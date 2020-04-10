@@ -34,7 +34,6 @@ body a {
 }
 
 body form input {
-  padding: 15px;
   border-radius: 3px;
   border: 1px solid;
 }
@@ -43,7 +42,12 @@ body form input::placeholder {
   color: #bfbfbf;
 }
 
+body form .iText {
+  padding: 15px 0px;
+}
+
 body form .iButton {
+  padding: 15px;
   background-color: #3065f8;
   color: white;
   cursor: pointer;
@@ -303,13 +307,14 @@ body .footer .block4 .block44 img {
 
 body .footer .attribution {
   margin-top: 30px;
-  margin-bottom: 5px;
+  padding-bottom: 25px;
   font-size: 11px;
   text-align: center;
 }
 
 body .footer .attribution a {
   color: #3e52a3;
+  font-size: 11px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -401,7 +406,7 @@ body .footer .attribution a {
     margin: 0 0 20px;
   }
   body .main .block1 .block11 form .iButton {
-    width: 98%;
+    width: 90%;
     margin: 0 0 20px;
   }
   body .main .block1 img {
@@ -464,7 +469,7 @@ body .footer .attribution a {
   }
   body .main .block3 form .iText {
     margin: 20px auto;
-    width: 74%;
+    width: 80%;
   }
   body .main .block3 form .iButton {
     margin: 0 auto;
