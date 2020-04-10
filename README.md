@@ -4,11 +4,9 @@
 
 ## Welcome! 👋
 
-Thanks for checking out this front-end coding challenge.
+I used this project to get confident with a slightly more complex layout. The second section with the testimonial area had a nice challenge. For this front-end coding challenge I used JADE(PUG), SASS, Flexbox.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
-
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+[Frontend Mentor](https://www.frontendmentor.io)
 
 ## Where to find everything
 
