@@ -55,6 +55,7 @@ body .nav {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  align-items: center;
 }
 
 body .nav img {
@@ -118,7 +119,7 @@ body .main .block2 {
 }
 
 body .main .block2 .block21 {
-  background-color: #f6f6fe;
+  background-color: #f8f8fe;
   padding-top: 30px;
   padding-bottom: 100px;
   display: flex;
@@ -227,7 +228,6 @@ body .main .block3 .block31 {
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-start;
-  align-items: flex-start;
 }
 
 body .main .block3 .block31 p {
@@ -310,4 +310,197 @@ body .footer .attribution {
 
 body .footer .attribution a {
   color: #3e52a3;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+  body .main {
+    margin-top: 80px;
+  }
+  body .main .block1 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  body .main .block1 .block11 {
+    width: 55%;
+  }
+  body .main .block1 .block11 h1 {
+    font-size: 24px;
+  }
+  body .main .block1 .block11 form {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  body .main .block1 .block11 form .iText {
+    margin: 0px;
+    padding: 15px 0px;
+    width: 75%;
+  }
+  body .main .block1 .block11 form .iButton {
+    margin: 20px 0;
+    padding: 15px;
+    width: 75%;
+  }
+  body .main .block1 img {
+    width: 40%;
+  }
+  body .main .block2 {
+    margin-top: 60px;
+  }
+  body .main .block2 img {
+    height: 10vw;
+  }
+  body .main .block2 .block21 {
+    padding: 10px 5%;
+  }
+  body .main .block2 .block21 img {
+    width: 40%;
+  }
+  body .main .block2 .block21 .block211 {
+    width: 55%;
+    padding-bottom: 40px;
+  }
+  body .main .block2 .block21 .block211 h1 {
+    font-size: 24px;
+  }
+  body .main .block2 .block21 .block211 .block2111 {
+    width: 160%;
+  }
+  body .main .block3 {
+    padding-top: 40px;
+  }
+  body .main .block3 form .iButton {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    width: 100%;
+  }
+  body .nav .block h3 {
+    padding: 0 1vw;
+  }
+  body .main .block1 {
+    flex-flow: column-reverse wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  body .main .block1 .block11 {
+    width: 90%;
+    text-align: center;
+  }
+  body .main .block1 .block11 h1, body .main .block1 .block11 p, body .main .block1 .block11 form {
+    margin-top: 40px;
+  }
+  body .main .block1 .block11 form .iText {
+    width: 90%;
+    margin: 0 0 20px;
+  }
+  body .main .block1 .block11 form .iButton {
+    width: 98%;
+    margin: 0 0 20px;
+  }
+  body .main .block1 img {
+    width: 90%;
+  }
+  body .main .block2 {
+    margin-top: 75px;
+  }
+  body .main .block2 img {
+    height: 16vw;
+  }
+  body .main .block2 .block21 {
+    padding: 0 5%;
+    flex-flow: column-reverse nowrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  body .main .block2 .block21 .block211 {
+    width: 100%;
+  }
+  body .main .block2 .block21 .block211 h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  body .main .block2 .block21 .block211 p {
+    margin-top: 20px;
+  }
+  body .main .block2 .block21 .block211 a {
+    text-align: center;
+    margin: 20px auto 0px;
+  }
+  body .main .block2 .block21 .block211 .block2111 {
+    width: 70%;
+    margin: 40px auto 60px;
+  }
+  body .main .block2 .block21 img {
+    width: 100%;
+  }
+  body .main .block3 {
+    width: 100%;
+    padding-top: 60px;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  body .main .block3 .block31 {
+    width: 90%;
+  }
+  body .main .block3 .block31 h2 {
+    text-align: center;
+    font-size: 24px;
+  }
+  body .main .block3 .block31 p {
+    text-align: center;
+  }
+  body .main .block3 form {
+    width: 90%;
+    margin: 20px 1%;
+  }
+  body .main .block3 form .iText {
+    margin: 20px auto;
+    width: 74%;
+  }
+  body .main .block3 form .iButton {
+    margin: 0 auto;
+    width: 80%;
+  }
+  body .footer {
+    padding: 40px 10%;
+    width: 80%;
+  }
+  body .footer .block4 {
+    width: 100%;
+    flex-flow: column nowrap;
+  }
+  body .footer .block4 .block41 {
+    margin-top: 25px;
+  }
+  body .footer .block4 .block42 {
+    margin-top: 30px;
+  }
+  body .footer .block4 .block42 p {
+    margin-left: 0;
+  }
+  body .footer .block4 .block43 {
+    margin-top: 30px;
+  }
+  body .footer .block4 .block43 p {
+    margin-left: 0;
+  }
+  body .footer .block4 .block44 {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+  }
+  body .footer .block4 .block44 img {
+    margin-left: 15px;
+  }
 }

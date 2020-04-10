@@ -79,6 +79,7 @@ body {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    align-items: center;
     img {
       width: 150px;
       height: 100%;
@@ -312,6 +313,28 @@ body {
       font-size: 11px; text-align: center;
       a {
         color: hsl(228, 45%, 44%);
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    .nav {
+      .block {
+        h3 {
+          padding: 0 1vw;
+        }
+      }
+    }
+    .main {
+      .block1 {
+        flex-flow: column wrap;
+        justify-content: space-around;
+        align-items: center;
+        .block11 {
+          
+        }
       }
     }
   }
